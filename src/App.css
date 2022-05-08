@@ -1,0 +1,22 @@
+.App {
+}
+
+.App .actions {
+    margin: 16px;
+}
+
+.App .modules {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.App .modules > div {
+    flex: 0 0 25%;
+}
+
+.App .modules > div > * {
+    margin: 8px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+}
